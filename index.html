@@ -19,6 +19,151 @@
 	<div id="side"> </div>
 	<div class="practicearea">
 		<div class="practice">
+			<h1>Sep 16th Practice</h1>
+
+			<form action="">
+				<p>Please enter in the format (xxx) xxx-xxxx</p>
+				Phone Number<input type="tel" name="phone" pattern="\(\d{3}\) \d{3}-\d{4}">
+				<p>Input 3 characters<input type="text" pattern=".{3}"></p>
+				<p><input type="submit"></p>
+			</form>
+			<p>
+				Banana
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/YGXCnZMGa6M?si=JKuvNDE5YwELfWvZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</p>
+			<p>
+				<p>UCS Campus</p> 
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82009.65216954832!2d-81.17411415664064!3d33.99375750000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bb282cb2a61b%3A0x78bd73542178f54e!2sUniversity%20of%20South%20Carolina!5e1!3m2!1sen!2sus!4v1726504665519!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</p>
+			<p>
+				<video 
+					src="video/puppy.mp4" poster="img/puppy.jpg" width="400" height="300"
+					preload
+					controls
+					loop>
+					<source src="video/puppy.webm">
+					<p>Sweet Lil Pubby</p>
+				</video>
+			</p>
+			<body>
+				<p>Empty Audio</p>
+				<audio src=""controls>
+					<p>Empty Audio</p>
+				</audio>
+			</body>
+		</div>
+		<div class="practice">
+			<h1>Sep 9th Practice</h1>
+
+			<form action="">
+				Please fill out the form 
+				<p> First Name: <input type="text" name="fisrtName"></p>
+				<p> Last Name: <input type="text" name="lastName"></p>
+				<p> Password: <input type="password" name="passwd"></p>
+			
+				Check Boxes and Radio Buttons
+				<p><input type="checkbox" name="check" value="b1">Box1</p>
+				<p><input type="checkbox" name="check" value="b2" checked>Box2</p>
+				<p><input type="checkbox" name="check" value="b3">Box3</p>
+				<p><input type="checkbox" name="check" value="b4">Box4</p>
+
+				<p>Select a radio button</p>
+				<p><input type="radio" name="rd" value="r1">Radio1</p>
+				<p><input type="radio" name="rd" value="r2"checked>Radio2</p>
+				<p><input type="radio" name="rd" value="r3">Radio3</p>
+				<p><input type="radio" name="rd" value="r4">Radio4</p>
+				<input type="submit" name="sub" id="">
+				<input type="reset" name="rld" id="">
+				<!--Bad Practice to upload file via form; use cloud	-->
+				<p><input type="file" name="files"></p>
+			</form>
+			<p>
+				<form action="">
+					<input type="text" name="" id="">
+					<textarea name="" id="">text</textarea>
+					<select name="" id="">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</form>
+			</p>
+		</div>
+		<div class="practice">
+			<h1>Sep 4 Practice</h1>
+			<p>This is an image</p>
+			<p>
+				<img src="img/puppy.jpg" alt="pubby"> <!--alt is alternative format -->
+			</p>
+				<!--width best practice: create seperate image when downsizing size, less for user to load-->
+			<p>This is also an image &copy;</p>
+			<a href="https://www.google.com">
+				<img src="img/google.png" alt="">
+			</a>
+
+			<p>Table prcatice</p>
+			<table border="1">
+				<tr>
+					<td>1</td><td>2</td><td>3</td>
+				</tr>
+				<tr>
+					<td colspan="2">1 & 2</td><td>3</td>
+				</tr>
+				<tr>
+					<td colspan="3">1-3
+				</tr>
+				<tr>
+					<td rowspan="3">1 1 1</td><td>2</td><td>3</td>
+				</tr>
+				<tr>
+					<td>2</td><td>3</td>
+				</tr>
+				<tr>
+					<td>2</td><td>3</td>
+				</tr>
+
+			</table>
+			<p>Long Table</p>
+			<table border="100">
+				<thead>
+					<tr>
+						<th>Date</th>
+						<th>Time</th>
+						<th>place</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td><td>2</td><td>3</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p>Inclass Table</p>
+			<table border="1">
+				<tr>
+					<td colspan="4"> Temperature Distrobution in Jan - Apr 2015 (F)</td>
+				</tr>
+				<tr>
+					<td>Month</td> <td>High</td> <td>Low</td> <td>Average</td>
+				</tr>
+				<tr>
+					<td>Jan</td> <td>40</td> <td>40</td> <td>40</td>
+				</tr>
+				<tr>
+					<td>Feb</td> <td>40</td> <td>40</td> <td rowspan="2">40</td>
+				</tr>
+				<tr>
+					<td>Mar</td> <td>40</td> <td>40</td> <td>40</td>
+				</tr>
+				<tr>
+					<td>Apr</td> <td>40</td> <td colspan="2">40</td>
+				</tr>
+			</table>
+
+			<p>&copy; 2024 Coghill Ltd.</p>
+		</div>
+		<div class="practice">
 			<h1>August 28 Link Practice</h1>
 			<ul>
 			<li><a href="img/google.png">Google Logo</a></li>
